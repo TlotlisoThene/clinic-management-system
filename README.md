@@ -56,7 +56,6 @@ The application follows a modified MVC (Model-View-Controller) architecture:
 - **Controller Logic** → Handles communication between GUI and database logic  
 - **Model (SQL Queries)** → Handles database interaction and SQL queries
 - **Database** → MySQL relational database
----
 
 ## Main Modules
 
