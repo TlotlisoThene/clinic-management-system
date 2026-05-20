@@ -1,4 +1,4 @@
-## clinic-management-system
+# clinic-management-system
 A Java and MySQL-based Clinic Management System developed for the **COMP306 Database Systems** project. The system centralizes clinic operations including appointment scheduling, patient management, billing, payment processing, laboratory services, and analytical reporting.
 
 The application was built using **Java Swing** for the graphical user interface, **MySQL** for database management, **JDBC** for database connectivity, and **JFreeChart** for data visualization.
@@ -24,7 +24,7 @@ The system was designed to simulate the daily operations of a healthcare facilit
 
 ---
 
-# Technologies Used
+## Technologies Used
 | Technology | Purpose                   |
 | ---------- | ------------------------- |
 | Java       | Main programming language |
@@ -34,7 +34,7 @@ The system was designed to simulate the daily operations of a healthcare facilit
 | JFreeChart | Data Visualization        |
 | Maven      | Dependency Management     |
 
-# Database Concepts Demonstrated
+## Database Concepts Demonstrated
 - Relational Database Design
 - ER/EER Modelling
 - 3rd Normal Form (3NF)
@@ -47,14 +47,18 @@ The system was designed to simulate the daily operations of a healthcare facilit
 - PreparedStatements
 - Referential Integrity Constraints
 
-# System Architecture
+## System Architecture
 The application follows a modified MVC (Model-View-Controller) architecture:
 
-- Model: Handles database interaction and SQL queries
-- View: Java Swing graphical user interface
-- Controller: Handles communication between GUI and database logic
+<img width="437" height="486" alt="Screenshot (803)" src="https://github.com/user-attachments/assets/1104d81e-52af-40da-8b99-1971140e60d9" />
 
-# Main Modules
+- **View (Swing GUI)** → Java Swing graphical user interface
+- **Controller Logic** → Handles communication between GUI and database logic  
+- **Model (SQL Queries)** → Handles database interaction and SQL queries
+- **Database** → MySQL relational database
+---
+
+## Main Modules
 
 - Appointments Module
 - Billing Module
@@ -82,7 +86,7 @@ The application follows a modified MVC (Model-View-Controller) architecture:
  - Username: admin
  - Password: 123
    
-# Reports & Analytics
+## Reports & Analytics
 The system generates analytical reports including:
 
 - Doctor performance analysis
@@ -91,14 +95,14 @@ The system generates analytical reports including:
 - Patient treatment insights
 - Payment method analysis
 
-# Security & Data Integrity
+## Security & Data Integrity
 
 - PreparedStatements used to prevent SQL injection
 - Transaction handling for payment consistency
 - Validation logic for data integrity
 - Try-With-Resources for automatic resource management
 
-# Challenges Encountered
+## Challenges Encountered
  - Challenge	Solution
  - Database consistency	Implemented atomic transactions
  - SQL injection prevention	Used PreparedStatements
@@ -106,7 +110,7 @@ The system generates analytical reports including:
  - Data visualization	Integrated JFreeChart dashboards
  - Learning Outcomes
 
-# This project strengthened practical skills in:
+## This project strengthened practical skills in:
 
 - Java GUI development
 - Relational database design
@@ -116,10 +120,10 @@ The system generates analytical reports including:
 - Team collaboration
 - Database systems development
   
-# Authors
+## Authors
 
   Developed as part of the COMP306 Database Systems project.
 
-# License
+## License
 
   This project is for educational purposes only.
