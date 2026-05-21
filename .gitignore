@@ -1,0 +1,37 @@
+# Compiled files
+*.class
+*.jar
+*.war
+
+# IDE files
+.idea/
+*.iml
+.settings/
+.project
+.classpath
+.DS_Store
+
+# NetBeans
+nbproject/
+build/
+dist/
+
+# Eclipse
+.settings/
+.classpath
+.project
+
+# VS Code
+.vscode/
+
+# Database credentials (IMPORTANT!)
+config.properties
+database.properties
+db.properties
+application.properties
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
